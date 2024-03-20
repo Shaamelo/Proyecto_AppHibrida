@@ -44,6 +44,21 @@ header {
     margin-top: 20px;
 }
 
+
+.day a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100px; /* Ajusta este valor según tus necesidades */
+        height: 100px; /* Ajusta este valor según tus necesidades */
+        color: black; /* Cambia el color del texto a negro */
+        text-decoration: none; /* Elimina el subrayado */
+        border: none; /* Elimina el borde */
+        padding: 10px; /* Añade relleno */
+        cursor: pointer; /* Cambia el cursor a un puntero cuando se pasa por encima */
+    }
+
 /* Estilo para la línea horizontal */
 .black-line {
     border: none;
