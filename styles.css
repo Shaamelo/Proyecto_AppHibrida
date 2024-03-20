@@ -163,3 +163,27 @@ background-color: skyblue;
     margin-top: 20px;
     padding: 15px 30px;
 }
+
+/* Estilos para la seccion Monday.html */
+
+.task {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.task input[type="checkbox"] {
+    align-self: flex-start;
+}
+
+.schedule .task .number {
+    background-color: skyblue;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
